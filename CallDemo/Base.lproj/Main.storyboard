@@ -49,10 +49,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v80-kX-RWn" userLabel="InputNumberView">
-                                <rect key="frame" x="8" y="198" width="304" height="266"/>
+                                <rect key="frame" x="8" y="197" width="304" height="304"/>
                                 <color key="backgroundColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="v80-kX-RWn" secondAttribute="height" multiplier="8:7" id="z2b-Me-39w"/>
+                                    <constraint firstAttribute="width" secondItem="v80-kX-RWn" secondAttribute="height" multiplier="1:1" id="ePF-Qf-jUQ"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -60,10 +60,10 @@
                         <constraints>
                             <constraint firstItem="112-sC-219" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Oh-Bv-i1P"/>
                             <constraint firstItem="112-sC-219" firstAttribute="top" secondItem="dlR-92-RZP" secondAttribute="bottom" id="0xb-4E-jzE"/>
-                            <constraint firstItem="v80-kX-RWn" firstAttribute="top" secondItem="112-sC-219" secondAttribute="bottom" constant="26" id="4B3-62-eOS"/>
+                            <constraint firstItem="v80-kX-RWn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5gb-gH-FVa"/>
                             <constraint firstItem="112-sC-219" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="641-Fa-GIm"/>
-                            <constraint firstItem="v80-kX-RWn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VkK-3m-alo"/>
-                            <constraint firstItem="v80-kX-RWn" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.95" id="cjW-bm-Tyx"/>
+                            <constraint firstItem="v80-kX-RWn" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.95" id="EVg-rH-Xxf"/>
+                            <constraint firstItem="v80-kX-RWn" firstAttribute="top" secondItem="112-sC-219" secondAttribute="bottom" constant="25" id="OMW-02-ZdY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Erh-iA-0t1"/>
