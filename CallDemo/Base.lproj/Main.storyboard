@@ -18,29 +18,33 @@
                         <viewControllerLayoutGuide type="top" id="dlR-92-RZP"/>
                         <viewControllerLayoutGuide type="bottom" id="CL9-Up-YzV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="ParentView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="112-sC-219">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="112-sC-219" userLabel="PhoneNumberView">
                                 <rect key="frame" x="0.0" y="64" width="320" height="92"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(027)545 5055" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6w-v0-gAH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(027)545 5055" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6w-v0-gAH">
                                         <rect key="frame" x="24" y="22" width="273" height="48"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="creat new contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGE-Se-7hq">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="creat new contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGE-Se-7hq">
                                         <rect key="frame" x="95" y="72" width="131" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="textColor" red="0.0" green="0.47173935169999998" blue="0.071498851589999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.82638564020000005" green="1" blue="0.51396444019999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="b6w-v0-gAH" firstAttribute="centerX" secondItem="112-sC-219" secondAttribute="centerX" id="7hb-8P-nsB"/>
+                                    <constraint firstItem="b6w-v0-gAH" firstAttribute="centerY" secondItem="112-sC-219" secondAttribute="centerY" id="EQu-L4-eAf"/>
+                                    <constraint firstItem="EGE-Se-7hq" firstAttribute="centerY" secondItem="112-sC-219" secondAttribute="centerY" constant="36" id="Nvp-6o-ZPq"/>
+                                    <constraint firstItem="EGE-Se-7hq" firstAttribute="centerX" secondItem="112-sC-219" secondAttribute="centerX" id="zav-2P-FRk"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sBJ-wm-NA4">
                                 <rect key="frame" x="0.0" y="177" width="320" height="320"/>
